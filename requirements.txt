@@ -1,0 +1,47 @@
+# ==============================================================================
+# NoteFlow Studio — Desktop Note-Taking Application Requirements
+# Stack: Electron + React 18 + TypeScript 5 + Vite 5 + Tailwind CSS 3 + Vitest 2
+# ==============================================================================
+#
+# System Prerequisites:
+#   - Node.js >= 18.0.0 (Tested with Node.js v24.22.1)
+#   - npm >= 9.0.0 (Tested with npm v11.19.1)
+#   - Operating System: macOS, Windows, or Linux
+#
+# Quick Install All Packages (via package.json):
+#   npm install
+#
+# Or Install Packages Explicitly via npm CLI:
+#   npm install react@^18.3.1 react-dom@^18.3.1 lucide-react@^0.460.0
+#   npm install -D electron@^33.2.0 vite@^5.4.11 @vitejs/plugin-react@^4.3.4 typescript@^5.6.3 tailwindcss@^3.4.15 postcss@^8.4.49 autoprefixer@^10.4.20 concurrently@^9.1.0 wait-on@^8.0.1 vitest@^2.1.9 jsdom@^31.0.0 @testing-library/react@^16.3.3 @testing-library/jest-dom@^7.0.1 @testing-library/user-event@^14.6.8 @types/node@^22.0.0 @types/react@^18.3.12 @types/react-dom@^18.3.1
+# ==============================================================================
+
+# --- Core Runtime Dependencies (dependencies) ---
+react@^18.3.1
+react-dom@^18.3.1
+lucide-react@^0.460.0
+
+# --- Desktop Runtime & Build Tooling (devDependencies) ---
+electron@^33.2.0
+vite@^5.4.11
+@vitejs/plugin-react@^4.3.4
+typescript@^5.6.3
+concurrently@^9.1.0
+wait-on@^8.0.1
+
+# --- Styling & CSS Pipeline (devDependencies) ---
+tailwindcss@^3.4.15
+postcss@^8.4.49
+autoprefixer@^10.4.20
+
+# --- TypeScript Type Definitions (devDependencies) ---
+@types/node@^22.0.0
+@types/react@^18.3.12
+@types/react-dom@^18.3.1
+
+# --- Automated Testing Suite (devDependencies) ---
+vitest@^2.1.9
+jsdom@^31.0.0
+@testing-library/react@^16.3.3
+@testing-library/jest-dom@^7.0.1
+@testing-library/user-event@^14.6.8
