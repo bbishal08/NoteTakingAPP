@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.35);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.6);
+}
+
+/* Light Theme Filter Adaptation */
+.theme-light {
+  filter: invert(0.93) hue-rotate(180deg);
+}
+
+.theme-light canvas,
+.theme-light img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Warm Sepia Paper Theme Adaptation */
+.theme-sepia {
+  filter: invert(0.89) sepia(0.38) hue-rotate(155deg) saturate(0.85);
+}
+
+.theme-sepia canvas,
+.theme-sepia img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+@media print {
+  header,
+  aside {
+    display: none !important;
+  }
+}
